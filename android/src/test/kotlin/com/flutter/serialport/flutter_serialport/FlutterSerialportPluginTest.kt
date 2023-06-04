@@ -1,9 +1,13 @@
 package com.flutter.serialport.flutter_serialport
 
+import androidx.annotation.NonNull
+
+import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
-import kotlin.test.Test
-import org.mockito.Mockito
+import io.flutter.plugin.common.MethodChannel.MethodCallHandler
+import io.flutter.plugin.common.MethodChannel.Result
+import io.flutter.plugin.common.PluginRegistry.Registrar
 
 /*
  * This demonstrates a simple unit test of the Kotlin portion of this plugin's implementation.

@@ -1,8 +1,2 @@
-
-import 'flutter_serialport_platform_interface.dart';
-
-class FlutterSerialport {
-  Future<String?> getPlatformVersion() {
-    return FlutterSerialportPlatform.instance.getPlatformVersion();
-  }
-}
+export 'package:libserialport/libserialport.dart';
+export 'serial_port_utils.dart';
